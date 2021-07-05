@@ -1,0 +1,5 @@
+train: ../img/train/images
+val: ../img/val/images
+
+nc: 2
+names: ['mask', 'no-mask']

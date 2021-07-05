@@ -1,0 +1,12 @@
+2021-07-05 19:17:02,050 INFO    MainThread:15664 [wandb_setup.py:_flush():70] setting env: {}
+2021-07-05 19:17:02,050 INFO    MainThread:15664 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2021-07-05 19:17:02,050 INFO    MainThread:15664 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-07-05 19:17:02,050 INFO    MainThread:15664 [wandb_init.py:_log_setup():303] Logging user logs to D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\logs\debug.log
+2021-07-05 19:17:02,050 INFO    MainThread:15664 [wandb_init.py:_log_setup():304] Logging internal logs to D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\logs\debug-internal.log
+2021-07-05 19:17:05,687 INFO    MainThread:15664 [wandb_run.py:_console_start():1218] atexit reg
+2021-07-05 19:17:05,690 INFO    MainThread:15664 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2021-07-05 19:17:05,690 INFO    MainThread:15664 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2021-07-05 19:17:05,690 INFO    MainThread:15664 [wandb_run.py:_redirect():1132] Redirects installed.
+2021-07-05 19:17:27,682 INFO    MainThread:15664 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 1
+2021-07-05 19:17:27,682 INFO    MainThread:15664 [wandb_run.py:_restore():1160] restore
+2021-07-05 19:17:27,684 INFO    MainThread:15664 [wandb_run.py:_restore():1160] restore

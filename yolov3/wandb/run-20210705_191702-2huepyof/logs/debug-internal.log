@@ -1,0 +1,112 @@
+2021-07-05 19:17:03,743 INFO    MainThread:16268 [internal.py:wandb_internal():63] W&B internal server running at pid: 16268
+2021-07-05 19:17:03,747 DEBUG   HandlerThread:16268 [handler.py:handle_request():55] handle_request: check_version
+2021-07-05 19:17:03,747 INFO    WriterThread:16268 [datastore.py:open_for_write():76] open: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\run-2huepyof.wandb
+2021-07-05 19:17:03,748 DEBUG   SenderThread:16268 [sender.py:send():90] send: header
+2021-07-05 19:17:03,748 DEBUG   SenderThread:16268 [sender.py:send():90] send: request
+2021-07-05 19:17:03,749 DEBUG   SenderThread:16268 [sender.py:send_request():99] send_request: check_version
+2021-07-05 19:17:03,752 DEBUG   Thread-8  :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-07-05 19:17:04,083 DEBUG   Thread-8  :16268 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 58396
+2021-07-05 19:17:04,334 DEBUG   SenderThread:16268 [sender.py:send():90] send: run
+2021-07-05 19:17:04,346 INFO    SenderThread:16268 [sender.py:_maybe_setup_resume():281] checking resume status for None/YOLOv3/2huepyof
+2021-07-05 19:17:04,350 DEBUG   SenderThread:16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:04,706 DEBUG   SenderThread:16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:04,761 DEBUG   SenderThread:16268 [util.py:is_cygwin_git():315] Failed checking if running in CYGWIN due to: FileNotFoundError(2, '系统找不到指定的文件。', None, 2, None)
+2021-07-05 19:17:04,805 DEBUG   SenderThread:16268 [git.py:repo():30] git repository is invalid
+2021-07-05 19:17:04,811 DEBUG   SenderThread:16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:05,195 DEBUG   SenderThread:16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:05,200 DEBUG   HandlerThread:16268 [handler.py:handle_request():55] handle_request: run_start
+2021-07-05 19:17:05,212 INFO    SenderThread:16268 [dir_watcher.py:__init__():165] watching files in: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files
+2021-07-05 19:17:05,213 INFO    SenderThread:16268 [sender.py:_start_run_threads():490] run started: 2huepyof with start time 1625483822
+2021-07-05 19:17:05,213 DEBUG   SenderThread:16268 [sender.py:send():90] send: summary
+2021-07-05 19:17:05,213 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-07-05 19:17:05,239 DEBUG   HandlerThread:16268 [git.py:repo():30] git repository is invalid
+2021-07-05 19:17:05,673 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:05,674 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2021-07-05 19:17:05,693 DEBUG   HandlerThread:16268 [handler.py:handle_request():55] handle_request: status
+2021-07-05 19:17:05,693 DEBUG   SenderThread:16268 [sender.py:send():90] send: request
+2021-07-05 19:17:05,694 DEBUG   SenderThread:16268 [sender.py:send_request():99] send_request: status
+2021-07-05 19:17:05,697 DEBUG   Thread-15 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:05,698 DEBUG   SenderThread:16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:06,070 DEBUG   SenderThread:16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:06,081 DEBUG   Thread-15 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:06,098 DEBUG   Thread-15 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:06,222 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:06,222 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\wandb-metadata.json
+2021-07-05 19:17:06,222 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\requirements.txt
+2021-07-05 19:17:06,223 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\wandb-summary.json
+2021-07-05 19:17:06,638 DEBUG   Thread-15 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/wandb-metadata.json?Expires=1625570225&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=GvDXjiNapzgTS2BJCOxL2kiugTuXljlN3d0j9EybtlxtJnfwtFNG3E6LHhMp6L%2F1Co%2BiSOjhzz%2FSPMQH%2BW%2FpxkX3LsL7DpRT%2BFDHpgZk2FabFc4WTQf4tiRsBge226%2BwPNrT5qunM7TRsinmh429QFtzEAP7%2BOdaFsTUuSkN7yAWUyjPgeC9hUlo144jcRErqmJexh9Jpl8Sbh%2BCxTVLK8r%2FNEU4IVIqcGSqYB3kTxGBWB300oKKGpEqMA20UZFmoQ0oz3j7vNw8FTn8dJF1JTWe7lJz7cKpQW%2F9RfrBXo72WahMibLVr52tbqKTuPYxwwpSB0me7x8TTXZ2SwdcxA%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:06,640 INFO    Thread-15 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\1juviwda-wandb-metadata.json
+2021-07-05 19:17:07,223 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:08,539 DEBUG   Thread-9  :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:08,904 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:09,071 DEBUG   SenderThread:16268 [sender.py:send():90] send: stats
+2021-07-05 19:17:09,986 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:09,987 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file media\images\Labels_0_0.jpg with policy now
+2021-07-05 19:17:10,000 DEBUG   Thread-16 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:10,005 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:10,005 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file media\images\Labels_0_1.jpg with policy now
+2021-07-05 19:17:10,017 DEBUG   SenderThread:16268 [sender.py:send():90] send: history
+2021-07-05 19:17:10,017 DEBUG   SenderThread:16268 [sender.py:send():90] send: summary
+2021-07-05 19:17:10,018 DEBUG   Thread-17 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:10,019 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-07-05 19:17:10,246 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:10,247 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\wandb-summary.json
+2021-07-05 19:17:10,247 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images\Labels_0_1.jpg
+2021-07-05 19:17:10,247 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images\Labels_0_0.jpg
+2021-07-05 19:17:10,247 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media
+2021-07-05 19:17:10,247 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images
+2021-07-05 19:17:10,369 DEBUG   Thread-16 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:10,384 DEBUG   Thread-17 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:10,389 DEBUG   Thread-16 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:10,400 DEBUG   Thread-17 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:11,262 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:11,411 DEBUG   Thread-17 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/media/images/Labels_0_1.jpg?Expires=1625570229&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Od4ESniZptm1ioC6VS8wn7xYcmwPzyzc0jI5WzkLM7i%2F7aOfAHeIdHsW%2Bwvv7CLZEydo7PS7GlbrGKcKGu%2FuAmaI2e3dmdfNzXpkEM01sg0n3JABF67CvOKbhE1iENngfXR%2F1MzRe4jf8wHKNU%2F84LgP3l4AzbN9I2OLjEbdQcIBc%2BaiUTyvs15eiYrZhVLFZJLcgDbuMBACvb3d3OpZSN7yYZfH%2F%2BF5aspOwe88e%2Bch9yQwfwDRJBHO1XTwIy4PT5Z0KkxiXVEyaAhWlVq1i0HlKh1hqFHTaYZ%2BLxpz4RG6aVYCXINx8YwHoEoPWecG9vbeYP03o9xL2dXQLEPzRw%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:11,413 INFO    Thread-17 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\14nudqyd-media/images/Labels_0_1.jpg
+2021-07-05 19:17:11,453 DEBUG   Thread-16 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/media/images/Labels_0_0.jpg?Expires=1625570229&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=dj5%2BtYdYc3jL2L6wA3E92PKWLq1fLlVJd5iXn%2B%2Fg9rQWUmiD4pJjZGxeieczuVNQAKkIHIYbOldJ3W9Zx6sxy7CiLpDciPyRG5fg7djMywkgzVfFTDIKUOTz9QI9Mk5vgXIBBqodXDhp8Nr5gWaf%2BpT4L6xIQuweRPAt3VYHf73iSc5clvUCYPjwROy%2B3cXQRremRkBP8UF6HfNhj3%2Bmb562rtK2sn6sqFpBzqEMmun9LFcywTjmgnRJ%2Brx7kDDDLiJ%2F%2BjgEDs8Zgb%2BnvKhFOst35jAO%2FOcutU6eFVu7oKXLaUaA9tYAwQKgMGpQqGIsSPjIa7lyadA88cl4Q5UDoA%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:11,454 INFO    Thread-16 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\39cibdi5-media/images/Labels_0_0.jpg
+2021-07-05 19:17:12,601 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:14,062 DEBUG   SenderThread:16268 [sender.py:send():90] send: stats
+2021-07-05 19:17:16,327 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:19,074 DEBUG   SenderThread:16268 [sender.py:send():90] send: stats
+2021-07-05 19:17:19,327 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:21,087 DEBUG   HandlerThread:16268 [handler.py:handle_request():55] handle_request: status
+2021-07-05 19:17:21,087 DEBUG   SenderThread:16268 [sender.py:send():90] send: request
+2021-07-05 19:17:21,087 DEBUG   SenderThread:16268 [sender.py:send_request():99] send_request: status
+2021-07-05 19:17:21,091 DEBUG   SenderThread:16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:21,503 DEBUG   SenderThread:16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:23,406 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:23,636 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:23,636 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file media\images\Mosaics_1_0.jpg with policy now
+2021-07-05 19:17:23,650 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:23,650 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file media\images\Mosaics_1_1.jpg with policy now
+2021-07-05 19:17:23,651 DEBUG   Thread-18 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:23,653 DEBUG   SenderThread:16268 [sender.py:send():90] send: files
+2021-07-05 19:17:23,653 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file media\images\Mosaics_1_2.jpg with policy now
+2021-07-05 19:17:23,657 DEBUG   SenderThread:16268 [sender.py:send():90] send: history
+2021-07-05 19:17:23,657 DEBUG   SenderThread:16268 [sender.py:send():90] send: summary
+2021-07-05 19:17:23,660 INFO    SenderThread:16268 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2021-07-05 19:17:23,665 DEBUG   Thread-19 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:23,675 DEBUG   Thread-20 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-07-05 19:17:23,914 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:24,033 DEBUG   Thread-18 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:24,056 DEBUG   Thread-20 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:24,065 DEBUG   Thread-18 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:24,088 DEBUG   Thread-19 :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-07-05 19:17:24,100 DEBUG   SenderThread:16268 [sender.py:send():90] send: stats
+2021-07-05 19:17:24,102 DEBUG   Thread-20 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:24,109 DEBUG   Thread-19 :16268 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-07-05 19:17:24,416 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:24,417 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\wandb-summary.json
+2021-07-05 19:17:24,417 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images\Mosaics_1_0.jpg
+2021-07-05 19:17:24,418 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images\Mosaics_1_1.jpg
+2021-07-05 19:17:24,419 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_created():213] file/dir created: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images\Mosaics_1_2.jpg
+2021-07-05 19:17:24,420 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\media\images
+2021-07-05 19:17:24,788 DEBUG   Thread-18 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/media/images/Mosaics_1_0.jpg?Expires=1625570243&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=DWSbFwPVaY0mqnzSxMw5aUkLk663Y1pqkl3OIYSEDce3LxJOJI0RR%2FWO4zyg8SbHtitvBCZyq7n5N1gxdL6dEGCevIuRQiV5M9b6%2BuvslLgvUUhtFDg9MLqGVvWjOzB%2FCt6cyiGy%2FtaVOfH6%2FglJW%2F0%2BbhANzZO2ecf%2BHBPzcpMtd%2FdvDAqfhKQQ8C8YQi1JBk4kCn1LigJt%2BKblD5%2BF8j8ar3y2Q5skRNSklv3yVAxHaxXpI12q7FXUZnKSR7J9%2BnQfOKsX396RuqllMM6N2h3XrqZIc4tbnjcbbJcjmpdzW9iTdXRKR5H9acFZY3VRp5fWUKYlwOGfQJAcRwLCjA%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:24,792 INFO    Thread-18 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\18j4gg4l-media/images/Mosaics_1_0.jpg
+2021-07-05 19:17:24,881 DEBUG   Thread-20 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/media/images/Mosaics_1_2.jpg?Expires=1625570243&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=ksN0LJrv%2BWXE23jrIq6I7p5GmV3a4%2FAFvWDqrTz4txI1hSEovCzoz9zGxSVEEzeEqMl1LZ2OY3WjzzFW%2Bs67GWdxwc2KwWMFI75GN5jLrV3y4q%2F2%2BQjBfxkUg4dO6eR%2B7ir9YrE0eLfihL5xJ%2BTpjo09dAOppCQdk%2BelOneCxtJAznA7%2FzccfVAx%2F1riQ%2FFunMzKI6kt6xJrIV43fQ62lpJ%2FMnrLRhXj83ztJX8nUrnVs7FLkucxI0BmAGVhCmSJitHWb%2F7U%2BFdvXPGTgCV9L1HlyRafyDgv%2B68U8V3L7yky5LneU76F7VBPrKVZzkTbtKshSK%2BGWIuDsAbTiqR7EQ%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:24,882 INFO    Thread-20 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\yqt65iop-media/images/Mosaics_1_2.jpg
+2021-07-05 19:17:24,974 DEBUG   Thread-19 :16268 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/q1135808/YOLOv3/2huepyof/media/images/Mosaics_1_1.jpg?Expires=1625570243&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=mXMZlgTrriMWP22oFLNf9EldktedBCVBtgY0zB5%2FwJLfFHvk4U4HiPizn3FDfV%2FGSFVEnfAOZwR5gD%2F4rD%2BaGl6RayFAVxrncIYfnZnS16sTWOvQmdPIvTALFbLnlfY%2FaTKhGc3GqpXUIf4DrmOAduAX6tBckF5fTv6EULA5U61pPLeDV4RRLeMBBneH0j%2BoqpdP%2F34amzFVTYHdfV9dE%2FN3m%2F9JLXbpuxVeVAZWTNg1xNRYnE8NqXwq4rNWsaCjESaeqWjL%2F73rSiwFzPYvlsYDbphDanam3fnHTwB3sIXd%2FuVScoLUis1URPu5WO3yIYvbL91OVeJyh6ol3k%2Fm3w%3D%3D HTTP/1.1" 200 0
+2021-07-05 19:17:24,977 INFO    Thread-19 :16268 [upload_job.py:push():131] Uploaded file C:\Users\11357\AppData\Local\Temp\tmpfskvc5uqwandb\126mmlm9-media/images/Mosaics_1_1.jpg
+2021-07-05 19:17:25,429 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
+2021-07-05 19:17:26,370 DEBUG   Thread-9  :16268 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/q1135808/YOLOv3/2huepyof/file_stream HTTP/1.1" 200 None
+2021-07-05 19:17:26,441 INFO    Thread-12 :16268 [dir_watcher.py:_on_file_modified():226] file/dir modified: D:\deep_learning\My_yolov3\yolo_3\yolov3\wandb\run-20210705_191702-2huepyof\files\output.log
